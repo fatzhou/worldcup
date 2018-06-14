@@ -1,0 +1,40 @@
+ul, li {
+	list-style: none;
+}
+
+html, body, ul, li, p, h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background: #f7f7f7;
+	position: relative;
+	min-height: 100%;
+}
+
+.clear {
+	&:after {
+		content: "";
+		clear: both;
+		display: block;
+	}
+}
+
+.f-l {
+	float: left;
+}
+
+.f-r {
+	float: right;
+}
+
+.eps {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
